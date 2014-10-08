@@ -1,6 +1,22 @@
+import processing.core.*; 
+import processing.data.*; 
+import processing.event.*; 
+import processing.opengl.*; 
+
+import java.util.HashMap; 
+import java.util.ArrayList; 
+import java.io.File; 
+import java.io.BufferedReader; 
+import java.io.PrintWriter; 
+import java.io.InputStream; 
+import java.io.OutputStream; 
+import java.io.IOException; 
+
+public class Starfield extends PApplet {
+
 //Vivian Lam, AP Computer Science, Mod 6/7, Starfield
 Particle[] plat;
-void setup()
+public void setup()
 {
   background(0);
   size(400,400);
@@ -11,7 +27,7 @@ void setup()
   plat[999]=new OddballParticle();
   frameRate(20);
 }
-void draw()
+public void draw()
 {
   //background(0);
   for(int i=0; i<1000;i++){
@@ -35,7 +51,7 @@ class NormalParticle implements Particle
   public void move(){
     myX+=Math.cos(myAngle)*mySpeed;
     myY+=Math.sin(myAngle)*mySpeed;  
-    myAngle+=0.01;
+    myAngle+=0.01f;
   }
   public void show(){
     noStroke();
@@ -63,7 +79,7 @@ class OddballParticle implements Particle
    public void move(){
   	myX+=Math.cos(myAngle)*mySpeed;
     myY+=Math.sin(myAngle)*mySpeed;  
-    myAngle+=0.05;
+    myAngle+=0.05f;
   }
   public void show(){
   	noStroke();
@@ -74,3 +90,12 @@ class OddballParticle implements Particle
 }
 
 
+  static public void main(String[] passedArgs) {
+    String[] appletArgs = new String[] { "Starfield" };
+    if (passedArgs != null) {
+      PApplet.main(concat(appletArgs, passedArgs));
+    } else {
+      PApplet.main(appletArgs);
+    }
+  }
+}

@@ -11,13 +11,25 @@ body {
     margin-left: auto;
     margin-right: auto
 }
+#red{
+    display:inline;
+    background-color:red;
+}
+#green{
+    display:inline;
+    background-color:green;
+}
+#blue{
+    display:inline;
+    background-color:blue;
+}
 
 header {
 	
 }
 
 footer {
-	font-style: italic;
+	font-style: bold;
 	font-size: 90%;
 }
 
