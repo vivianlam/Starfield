@@ -13,7 +13,7 @@ void setup()
 }
 void draw()
 {
-  //background(0);
+  background(0);
   for(int i=0; i<1000;i++){
    plat[i].move();
    plat[i].show();
