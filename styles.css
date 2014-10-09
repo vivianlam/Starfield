@@ -14,20 +14,18 @@ body {
 div
 {
 	height:50px;
-	width=100em;
+	width=100px;
 	border:2px solid black;
+	display:inline-block;
 }
 
 #red{
-    display:inline-block;
     background-color:red;
 }
 #green{
-    display:inline-block;
     background-color:green;
 }
 #blue{
-    display:inline-block;
     background-color:blue;
 }
 
