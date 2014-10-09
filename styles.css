@@ -13,9 +13,9 @@ body {
 }
 div
 {
-	height:50em;
+	height:10em;
 	width=50em;
-	border:2em solid black;
+	border:2px solid black;
 }
 
 #red{
