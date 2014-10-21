@@ -1,5 +1,4 @@
-//Vivian Lam, AP Computer Science, Mod 6/7, Starfield
-Particle[] plat;
+//Vivian Lam, AP Computer Science, Mod 6/7, JumboParticle
 void setup()
 {
   size(400,400);
