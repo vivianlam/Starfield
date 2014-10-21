@@ -1,4 +1,5 @@
 //Vivian Lam, AP Computer Science, Mod 6/7, JumboParticles
+Particle[] plat;
 void setup()
 {
   size(400,400);

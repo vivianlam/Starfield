@@ -14,7 +14,7 @@ import java.io.IOException;
 
 public class Starfield extends PApplet {
 
-//Vivian Lam, AP Computer Science, Mod 6/7, Starfield
+//Vivian Lam, AP Computer Science, Mod 6/7, JumboParticles
 Particle[] plat;
 public void setup()
 {
