@@ -1,4 +1,4 @@
-//Vivian Lam, AP Computer Science, Mod 6/7, JumboParticle
+//Vivian Lam, AP Computer Science, Mod 6/7, JumboParticles
 void setup()
 {
   size(400,400);
@@ -73,6 +73,7 @@ class JumboParticle extends NormalParticle{
   JumboParticle()
   {
   }
+
   public void show(){
     noStroke();
     fill(0,255,0);

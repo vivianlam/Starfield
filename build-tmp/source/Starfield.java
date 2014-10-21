@@ -90,6 +90,7 @@ class JumboParticle extends NormalParticle{
   JumboParticle()
   {
   }
+
   public void show(){
     noStroke();
     fill(0,255,0);
