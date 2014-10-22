@@ -11,17 +11,24 @@ body {
     margin-left: auto;
     margin-right: auto
 }
+div
+{
+	display:inline-block;
+	height:50px;
+	width=100px;
+	border:2px solid black;
+	border-radius:5px;
+	
+}
+
 #red{
-    display:inline;
-    background-color:red;
+    background-color: red;
 }
 #green{
-    display:inline;
-    background-color:green;
+    background-color: green;
 }
 #blue{
-    display:inline;
-    background-color:blue;
+    background-color: blue;
 }
 
 header {
